@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <center>
+
+        <fieldset>
+            
+            <h2>Hotel Room Booking Form</h2>
+            <form action="#" method="post" border="1" style="font-size: larger;">
+                
+                <label for="name">Full Name:</label>
+                <input type="text" id="name" name="name" required>
+                <br><br>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <br><br>
+                <label for="phone">Phone:</label>
+                <input type="tel" id="phone" name="phone" required>
+                <br><br>
+                <label for="checkin">Check-in Date:</label>
+                <input type="date" id="checkin" name="checkin" required>
+                <br><br>
+                <label for="checkout">Check-out Date:</label>
+                <input type="date" id="checkout" name="checkin" required>
+                <br><br>
+                <label for="room">Room Type:</label>
+                <select name="room" id="room" required>
+                    <option>Single Room</option>
+                    <option>Double Room</option>
+                    <option>Suite</option>
+                </select>
+                <br><br>
+                <label for="guest">Number of Guests:</label>
+                <input type="number" id="guest" name="guest" min="1" max="10" required>
+                <br><br>
+                <label for="request">Special Requests:</label>
+                <textarea name="request" id="request" rows="5" cols="50"></textarea>
+                <br><br>
+                <button type="submit">Book Now</button>
+                <button type="reset">Reset Form</button>
+                
+            </form>
+            
+        </fieldset>
+        
+    </center>
+    
+    </body>
+    </html>
